@@ -1,0 +1,47 @@
+body{
+    background-color:#fff
+}
+
+.wrapper{
+    opacity:0;
+    -webkit-animation:wrapper 1s normal forwards ease-in-out;
+    animation:wrapper 1s normal forwards ease-in-out
+}
+
+@-webkit-keyframes wrapper{
+    0%{
+        opacity:0
+    }
+    25%{
+        opacity:.2
+    }
+    50%{
+        opacity:.6
+    }
+    100%{
+        opacity:1
+    }
+}
+
+@keyframes wrapper{
+    0%{
+        opacity:0
+    }
+    25%{
+        opacity:.2
+    }
+    50%{
+        opacity:.6
+    }
+    100%{
+        opacity:1
+    }
+}
+
+h1{
+    font-family:Ubuntu,sans-serif;
+    font-size:40px;
+    font-weight:400;
+    letter-spacing:2px;
+    margin-top:20px
+}
